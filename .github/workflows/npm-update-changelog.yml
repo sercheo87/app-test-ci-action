@@ -17,7 +17,7 @@ jobs:
       - name: Update changelog
         run: |
           export GREN_GITHUB_TOKEN=${{ secrets.GIT_TOKEN }}
-          ./node_modules/.bin/gren changelog --override
+          ./node_modules/.bin/gren changelog --override --generate
       - name: Get base branch
         id: vars
         run: |
