@@ -1,0 +1,28 @@
+{
+  "name": "app-test-ci-action",
+  "version": "1.0.0",
+  "description": "Example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sercheo87/app-test-ci-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sercheo87/app-test-ci-action/issues"
+  },
+  "homepage": "https://github.com/sercheo87/app-test-ci-action#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "s": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
