@@ -40,7 +40,7 @@ jobs:
             - Update changelog to reflect release changes
             [1]: https://github.com/sercheo87/app-test-ci-action
           branch: update-changelog
-          base: develop
+          base: master
           labels: automated pr
           assignees: sercheo87
           draft: false
